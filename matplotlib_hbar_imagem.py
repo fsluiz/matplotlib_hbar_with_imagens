@@ -19,7 +19,7 @@ def h_bar(labels, values,height,colors, ax, save_fig=False):
         ab = AnnotationBbox(im, (0, i), xybox=(-25, 0), frameon=False,
                         xycoords='data', boxcoords="offset points", pad=0)
         ax.add_artist(ab)
-        #offset_image(value, i, label, bar_is_too_short=value < max_value / 10, ax=plt.gca())
+        
     plt.subplots_adjust(left=0.15)
     #remove the labels of y-axis
     plt.yticks([]) 
